@@ -14,6 +14,9 @@ ACpp_ColorChanger::ACpp_ColorChanger()
 
 	ColorWidget = CreateDefaultSubobject<UWidgetComponent>(TEXT("ColorWidget"));
 	ColorWidget->SetupAttachment(RootComponent);
+	ColorWidget->SetWidgetSpace(EWidgetSpace::Screen);
+	ColorWidget->SetDrawAtDesiredSize(true);
+	ColorWidget->SetHiddenInGame(true);
 	
 	AutoInitLocation = true;
 
@@ -32,10 +35,6 @@ void ACpp_ColorChanger::InitLocation()
 			UKismetSystemLibrary::GetComponentBounds(ColorActors[0]->GetRootComponent(), Location, Extent, Radius);
 			this->SetActorLocation(Location);
 		}
-
-		ColorWidget->SetWidgetSpace(EWidgetSpace::Screen);
-		ColorWidget->SetDrawAtDesiredSize(true);
-		ColorWidget->SetHiddenInGame(true);
 	}
 }
 

@@ -7,6 +7,7 @@
 #include "Components/WidgetComponent.h"
 #include "Kismet/KismetSystemLibrary.h"
 #include "Components/SphereComponent.h"
+#include "Cpp_POV.h"
 #include "Cpp_ColorChanger.generated.h"
 
 
@@ -37,10 +38,13 @@ public:
 	UPROPERTY(EditDefaultsOnly)
 	USceneComponent* Root;
 
+	UPROPERTY(EditAnywhere, BlueprintReadOnly)
+	ACpp_POV* PovActor;
+
 	UPROPERTY(EditAnywhere)
 	TArray<AActor*> ColorActors;
 
-	UPROPERTY(BlueprintReadOnly)
+	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly)
 	UWidgetComponent* ColorWidget;
 
 	UPROPERTY(EditAnywhere, BlueprintReadOnly)
@@ -50,7 +54,7 @@ public:
 	bool AutoInitLocation;
 
 public:
-	UFUNCTION(BlueprintCallable)
+	UFUNCTION()
 	void InitLocation();
 
 	UFUNCTION(BlueprintCallable)
