@@ -7,6 +7,7 @@
 #include "Kismet/GameplayStatics.h"
 #include "Components/SplineComponent.h"
 #include "Engine/StaticMeshActor.h"
+#include "Kismet/KismetMathLibrary.h"
 #include "Cpp_CarSpawner.generated.h"
 
 

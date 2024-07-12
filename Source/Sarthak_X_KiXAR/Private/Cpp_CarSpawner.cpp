@@ -59,7 +59,7 @@ void ACpp_CarSpawner::MoveAllCars(float DeltaTime)
 
 			FVector NewPosition = Spline->GetLocationAtDistanceAlongSpline(Distances[i], ESplineCoordinateSpace::World);
 			FRotator NewRotation = Spline->GetRotationAtDistanceAlongSpline(Distances[i], ESplineCoordinateSpace::World);
-
+			
 			CarsArray[i]->SetActorLocation(NewPosition);
 			CarsArray[i]->SetActorRotation(NewRotation);
 		}
