@@ -59,6 +59,7 @@ void ACpp_ColorChanger::ApplyColor(UMaterialInterface* CurrentMaterial)
 void ACpp_ColorChanger::BeginPlay()
 {
 	Super::BeginPlay();
+
 }
 
 // Called every frame
