@@ -3,13 +3,13 @@
 ## Features
 - The project contains two types of pawns an Orbital Pawn for an orbital view of the Villa and a First Person Pawn for an interior view.
 - Contains a fully functional widget system for easy control and view.
-- Has multiple points of view (POV) to look at the villa from both outside and inside with smooth lerping movement.
-- Contains Color Configurators and Layout Modifies to customize objects and locations.
-- Color Configurators can change the color of meshes that are assigned to it.
+- Has multiple points of view (POVs) to look at the villa from both outside and inside with smooth lerping movement.
+- Contains Color Configurators and Layout Modifiers to customize objects and locations.
+- Color Configurators can change the color (materials) of meshes on actors that are assigned to it.
 - Layout Modifier can modify layout by two methods such as:
-  - By activating multiple Color Changers that are assigned to it
-  - By loading and unloading streaming levels assigned to and modifying the visibility of actors present at the loaded streaming level.
-- The project contains a Car Spawner system that spawns cars uniformly and moves them around on the desired path.
+  - By activating multiple Color Configurators that are assigned to it
+  - By loading and unloading streaming levels assigned to it and randomly modifying the visibility of actors present in the loaded streaming level.
+- The project contains a Car Spawner system that spawns cars uniformly and moves them on the desired path using spline control.
 - Contains a Day-Night slider that allows you to visualize the real-time Day-Night cycle.
 
 ## Multiplayer
