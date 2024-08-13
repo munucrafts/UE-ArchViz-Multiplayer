@@ -3,13 +3,13 @@
 using UnrealBuildTool;
 using System.Collections.Generic;
 
-public class Sarthak_X_KiXAREditorTarget : TargetRules
+public class ArchVizEditorTarget : TargetRules
 {
-	public Sarthak_X_KiXAREditorTarget(TargetInfo Target) : base(Target)
+	public ArchVizEditorTarget(TargetInfo Target) : base(Target)
 	{
 		Type = TargetType.Editor;
 		DefaultBuildSettings = BuildSettingsVersion.V4;
 
-		ExtraModuleNames.AddRange( new string[] { "Sarthak_X_KiXAR" } );
+		ExtraModuleNames.AddRange( new string[] { "ArchViz" } );
 	}
 }

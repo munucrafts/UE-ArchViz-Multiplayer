@@ -2,9 +2,9 @@
 
 using UnrealBuildTool;
 
-public class Sarthak_X_KiXAR : ModuleRules
+public class ArchViz : ModuleRules
 {
-	public Sarthak_X_KiXAR(ReadOnlyTargetRules Target) : base(Target)
+	public ArchViz(ReadOnlyTargetRules Target) : base(Target)
 	{
 		PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
 	

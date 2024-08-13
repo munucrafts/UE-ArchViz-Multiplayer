@@ -12,7 +12,7 @@
 
 
 UCLASS()
-class SARTHAK_X_KIXAR_API ACpp_CarSpawner : public AActor
+class ARCHVIZ_API ACpp_CarSpawner : public AActor
 {
 	GENERATED_BODY()
 	

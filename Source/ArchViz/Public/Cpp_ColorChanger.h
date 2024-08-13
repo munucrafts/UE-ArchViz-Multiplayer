@@ -27,7 +27,7 @@ struct FColorData
 };
 
 UCLASS()
-class SARTHAK_X_KIXAR_API ACpp_ColorChanger : public AActor
+class ARCHVIZ_API ACpp_ColorChanger : public AActor
 {
 	GENERATED_BODY()
 	
