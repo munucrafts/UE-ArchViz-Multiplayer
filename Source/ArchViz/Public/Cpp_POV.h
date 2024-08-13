@@ -7,7 +7,7 @@
 #include "Cpp_POV.generated.h"
 
 UCLASS()
-class SARTHAK_X_KIXAR_API ACpp_POV : public AActor
+class ARCHVIZ_API ACpp_POV : public AActor
 {
 	GENERATED_BODY()
 	
