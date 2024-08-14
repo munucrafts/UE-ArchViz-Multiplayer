@@ -30,5 +30,7 @@
 
 ## How to Run?
 - Clone or download the project to your computer.
+- Right-click on the uproject file and generate the solution.
+- Open the solution and set "ArchViz" as the startup project.
 - Run the uproject file to start the project.
 - The project will by default open with the multiplayer menu level.
