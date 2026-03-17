@@ -1,4 +1,4 @@
-# Multiplayer Control ArchViz Project
+# Multiplayer ArchViz Project - UE 5.4
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/80d23a57-4efd-4092-a4b5-4aafc236e12b" width="400"/>
@@ -19,7 +19,7 @@
   * **Orbital Pawn** for an orbital view of the Villa
   * **First Person Pawn** for an interior view
 
-* Contains a fully functional **widget system** for easy control and view.
+* Contains a fully functional **widget system** for easy control and viewing.
 
 * Has multiple **points of view (POVs)** to look at the villa from both outside and inside with smooth **lerping movement**.
 
@@ -31,7 +31,7 @@
 
 * **Layout Modifier**
 
-  * Can modify layout by two methods such as:
+  * Can modify layout by two methods, such as:
 
     * Activating multiple Color Configurators that are assigned to it.
     * Loading and unloading streaming levels assigned to it and randomly modifying the visibility of actors present in the loaded streaming level.
@@ -72,8 +72,9 @@
 
 ## How to Run?
 
-1. Clone or download the project to your computer.
-2. Right-click on the **.uproject** file and generate the solution.
-3. Open the solution and set **"ArchViz"** as the startup project.
-4. Run the **.uproject** file to start the project.
-5. The project will by default open with the **multiplayer menu level**.
+1. Install Unreal Engine 5.4 or above
+2. Clone or download the project to your computer.
+3. Right-click on the **.uproject** file and generate the solution.
+4. Open the solution and set **"ArchViz"** as the startup project.
+5. Run the **.uproject** file to start the project.
+6. The project will by default open with the **multiplayer menu level**.
